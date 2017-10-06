@@ -22,18 +22,18 @@ const action_t actionmaps[][UNIMAP_ROWS][UNIMAP_COLS] __attribute__ ((section ("
 const action_t actionmaps[][UNIMAP_ROWS][UNIMAP_COLS] PROGMEM = {
 #endif
     [0] = KMAP( \
-        GRV, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC,     INS,
-        TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,     DEL,
-        ESC, A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     ENT,
-        LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLS6,          RS_2, UP,
-        LCTL,LALT,LGUI,          SPC5,                      RALT,RCTL,L3,  LEFT, DOWN, RGHT
+        GRV,  1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC,     INS,
+        TAB,  Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,     DEL,
+        ESC,  A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     ENT,
+        LSFT, Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLS6,          RS_2, UP,
+        LCTL, LGUI,LALT,          SPC5,                      RALT,RCTL,L3,  LEFT, DOWN, RGHT
     ),
     [1] = KMAP( 
-        GRV, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC,     INS,
-        TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,     DEL,
-        ESC, A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     ENT,
-        LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,          RSFT,   UP,
-        LCTL,  LALT,LGUI,          SPC5,                    RALT,RCTL,L4,  LEFT,DOWN,RGHT
+        GRV,  1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC,     INS,
+        TAB,  Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,BSLS,     DEL,
+        ESC,  A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     ENT,
+        LSFT, Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,          RSFT,   UP,
+        LCTL, LGUI, LALT,         SPC5,                    RALT,RCTL,L4,  LEFT,DOWN,RGHT
     ),
     [2] = KMAP(
         TRNS, TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,
